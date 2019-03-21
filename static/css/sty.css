@@ -1,0 +1,47 @@
+.navig {
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backabstract.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.naviLinks {
+   padding-bottom: 5px;
+   color: #fff!important;
+   opacity: 0.2 important;
+   border-bottom: 2px solid transparent;
+   border-bottom-height: 3px;
+   transition: all 0.3s!important;
+}
+
+.naviLinks:hover {
+    border-bottom: 2px solid #B06AB3;
+}
+
+.button-call {
+    border-radius: 200px;
+    padding: 12px;
+    border: 1px solid white;
+    box-shadow: 8px 8px 80px #4568DC;
+    transition: all 0.5s!important;
+
+}
+
+.button-call:hover {
+    border: 1px solid #4568DC;
+    box-shadow: none;
+
+}
+
+
