@@ -48,4 +48,6 @@ body {
 
 }
 
+a:focus {outline:none !important;}
+
 
