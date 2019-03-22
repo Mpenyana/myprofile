@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="{{url_for('static', filename='css/sty.css')}}">
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/sty.css')}}">
         <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
-        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
         <header>
-            <nav class="flex justify-between navig b--red-10 d-l d-m dn">
+            <nav class="dt--fixed flex justify-between navig b--red-10 d-l d-m">
                 <img src="{{url_for('static', filename='images/programmer.png')}}">
               <div class="flex-grow mt2 pa3 flex items-center">
                 <a class="f5 f5-l f5-m naviLinks fw5 link dib white mr3 mr4-ns" href="{{url_for('signin')}}">respNavi</a>
