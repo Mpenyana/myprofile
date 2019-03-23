@@ -1,9 +1,9 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-@app.route('/signin')
-def signin():
-    return render_template('signIn.html')
+@app.route('/skills')
+def skills():
+    return render_template('skills.html')
 
 @app.route('/')
 def home():
