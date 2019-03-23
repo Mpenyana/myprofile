@@ -28,10 +28,10 @@ body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     color: white;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.17)), to(rgba(0, 0, 0, 0.17))), url(/static/images/backabstract.png);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backabstract.png);
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backabstract.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backabstract.png);
+    background-image: url(/static/images/backab.png);
+    background-image: url(/static/images/backab.png);
+    background-image: url(/static/images/backab.png);
+    background-image: url(/static/images/backab.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
