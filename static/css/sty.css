@@ -25,6 +25,7 @@ footer {
 }
 
 body {
+    width: 100vw;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     color: white;
