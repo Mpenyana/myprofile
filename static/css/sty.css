@@ -33,8 +33,16 @@ body {
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backab.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backab.png);
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.skill {
+    background-color: black;
+    opacity: 0.6;
 }
 
 .naviLinks {
