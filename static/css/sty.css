@@ -62,8 +62,8 @@ body {
     border-radius: 200px;
     padding: 12px;
     border: 1px solid white;
-    -webkit-box-shadow: 8px 8px 80px #4568DC;
-            box-shadow: 8px 8px 80px #4568DC;
+    -webkit-box-shadow: 8px 8px 100px #4568DC;
+            box-shadow: 8px 8px 100px #4568DC;
     -webkit-transition: all 0.5s!important;
     -o-transition: all 0.5s!important;
     transition: all 0.5s!important;
@@ -76,10 +76,11 @@ position:fixed;
 z-index: 9999;}
 
 .button-call:hover {
+    color: #4568DC;
+    font-weight: 500;
     border: 1px solid #4568DC;
     -webkit-box-shadow: none;
-            box-shadow: none;
-
+    box-shadow: none;
 }
 
 
@@ -95,5 +96,3 @@ h2:after {
 }
 
 a:focus {outline:none !important;}
-
-
