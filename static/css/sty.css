@@ -22,6 +22,10 @@ nav img {
 
 }
 
+.scroll-touch {
+  -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
 .about {
     width: 85%;
     margin-right: auto;
