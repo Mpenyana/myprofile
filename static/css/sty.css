@@ -28,6 +28,9 @@ body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     color: white;
+}
+
+.hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.17)), to(rgba(0, 0, 0, 0.17))), url(/static/images/backab.png);
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backab.png);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(/static/images/backab.png);
